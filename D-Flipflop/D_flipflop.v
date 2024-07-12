@@ -36,6 +36,7 @@ end
 else
 begin
 q <= d;
+qbar <= ~d;
 end
 end
 endmodule
