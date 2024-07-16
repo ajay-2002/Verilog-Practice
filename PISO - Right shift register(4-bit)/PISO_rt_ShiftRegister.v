@@ -42,8 +42,8 @@ shift_reg <= p_in;   //load parallel data into shift_reg
 end
 else
 begin
-s_out = shift_reg[0];
-shift_reg = shift_reg>>1;
+s_out <= shift_reg[0];
+shift_reg <= shift_reg>>1;
 end
 end
 endmodule
